@@ -17,7 +17,7 @@ Pour que Blynk CLI puisse fonctionner, il faudra que votre configuration respect
 ## Installation
 Installez Blynk CLI à partir de NPM avec l'option globale activée `-g` :
 ```console
-npm install -g blynk-cli
+$ npm install -g blynk-cli
 ```
 
 # Utilisation
@@ -56,13 +56,13 @@ $ blynk-cli server update
 
 ## Démarrer/Arrêter/Redémarrer le serveur
 ```console
-blynk-cli server start
+$ blynk-cli server start
 
-blynk-cli server status # Affiche l'état du serveur
+$ blynk-cli server status # Affiche l'état du serveur
 
-blynk-cli server stop
+$ blynk-cli server stop
 
-blynk-cli server restart
+$ blynk-cli server restart
 ```
 
 ## Créer une sauvegarde des données
